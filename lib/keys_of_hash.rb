@@ -1,4 +1,3 @@
-
 class Hash
   def keys_of(*args)
     map {|key, value| args.include?(value) ? key : nil }.compact
@@ -14,10 +13,7 @@ class Hash
         array.push(key)
         end
       end 
-
-
     end
     return array
   end
-  
 end 
